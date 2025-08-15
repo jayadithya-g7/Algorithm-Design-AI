@@ -5,7 +5,14 @@ What it is:
 -
 
 In the context of search algorithms, an Oracle Search is a conceptual model where an "oracle" (a source of perfect information) provides the optimal path to the goal, and the search algorithm simply follows it. 
-This is a hypothetical scenario used to benchmark other algorithms. In this practical implementation, the "oracle" is a preliminary search (a DFS) that finds a path and stores it in a special oracle data structure. The final part of the code then demonstrates the search by simply following the path provided by this "oracle."
+
+
+This is a hypothetical scenario used to benchmark other algorithms. In this practical implementation, the "oracle" is a preliminary search (a DFS) that finds a path and stores it in a special oracle data structure. 
+
+
+The final part of the code then demonstrates the search by simply following the path provided by this "oracle."
+
+
 
 The Code Explained:
 -
