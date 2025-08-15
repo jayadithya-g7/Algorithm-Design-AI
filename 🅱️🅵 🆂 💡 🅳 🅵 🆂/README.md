@@ -20,6 +20,10 @@ The Code Explained:
 -
 
 
+The provided code implements a hybrid search strategy that attempts a Depth-First Search (DFS) first, and if that fails to find the goal, it switches to a Breadth-First Search (BFS) from the last node visited by the DFS. This is an interesting approach to combine the quick exploration of DFS with the completeness of BFS.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The implementation uses a stack for the DFS part and a queue for the BFS part.
 
 
