@@ -34,6 +34,8 @@ This array is populated such that oracle[i] holds the next node on the path afte
 
 The final while loop simply traverses the graph by using this oracle array as a lookup table, demonstrating how a perfect search would operate.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <img width="858" height="294" alt="image" src="https://github.com/user-attachments/assets/35163b47-b0fd-4f51-b343-271d813d1cf9" />
 
 
