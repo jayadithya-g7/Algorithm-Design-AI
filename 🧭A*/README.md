@@ -28,6 +28,15 @@ hScore: The estimated cost from this vertex to the goal, provided by the heurist
 
 Priority Queue: The priority_queue is the core of the search. It automatically keeps the node with the lowest fScore at the top, ensuring the algorithm always explores the most promising path first. The operator> overload in the Node struct tells the priority queue how to compare and order the nodes.
 
+struct Node{
+    int vertex;
+    int gScore;
+    int hScore;
+    bool operator>(const Node& other)const{
+        return (gScore+hScore) > (other.gScore+other.hScore);
+    }
+};
+
 testcase
 -
 
