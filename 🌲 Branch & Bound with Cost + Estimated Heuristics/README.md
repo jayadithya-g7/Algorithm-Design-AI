@@ -7,8 +7,10 @@ What it is:
 
 This implementation uses the Branch & Bound framework, enhanced with a heuristic. 
 <br/>
+
 The algorithm finds the shortest path by using a priority function that combines the actual path cost (cost) with an estimated cost to the goal (estimate). 
 <br/>
+
 This approach is also known as an A* search, as it leverages both the path cost and an informed guess to guide the search, making it highly efficient.
 
 
