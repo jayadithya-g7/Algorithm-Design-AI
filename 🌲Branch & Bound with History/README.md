@@ -18,14 +18,8 @@ path: A vector that stores the sequence of vertices, representing the path histo
 
 Priority Queue: The queue sorts nodes based on their current cost. By always expanding the node with the lowest cost, the algorithm efficiently finds the shortest path while pruning any expensive detours. The operator> overload handles this cost-based ordering.
 
-struct Node{
-    int vertex;
-    int cost;
-    vector<int> path;
-    bool operator>(const Node& other)const{
-        return cost > other.cost;
-    }
-};
+<img width="513" height="253" alt="image" src="https://github.com/user-attachments/assets/f88eab3f-3e2e-49b0-ab3f-6b655f572bf8" />
+
 
 testcase
 -
